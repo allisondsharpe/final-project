@@ -1,5 +1,3 @@
-<?php echo "Hello world!"
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -52,5 +50,3 @@
 
 </body>
 </html>
-
-?>
