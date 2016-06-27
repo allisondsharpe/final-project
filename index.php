@@ -10,6 +10,10 @@
 </head>
 <body>
 
+  <?php
+    echo "Hello world!"
+    ?>
+
   <header>
     <img src="assets/images/logo.png" alt="AA logo" id="logo"/>
     <a href="login.html"><button class="header-btn" type="button">Log in</button></a>
