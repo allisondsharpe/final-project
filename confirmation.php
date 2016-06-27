@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> About Us </title>
+  <title> Success </title>
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/nav.css">
   <link rel="stylesheet" type="text/css" href="css/header.css">
@@ -9,46 +9,38 @@
 </head>
 <body>
 
-
   <header>
     <img src="assets/images/logo.png" alt="AA logo" id="logo"/>
-    <a href="settings.html"><button id="settings" class="header-btn" type="button">Settings</button></a>
-    <a href="logout.html"><button id="logout" class="header-btn" type="button">Log out</button></a>
+    <a href="settings.php"><button id="settings" class="header-btn" type="button">Settings</button></a>
+    <a href="logout.php"><button id="logout" class="header-btn" type="button">Log out</button></a>
   </header>
-
-
 
   <nav>
     <ul>
-      <li class="border-right"><a href="home.html">Home</a></li>
+      <li class="border-right"><a href="home.php">Home</a></li>
 
       <div class="dropdown">
-        <li class="border-right" id="active-item"><a href="about.html">About Us</a>
+        <li class="border-right" id="active-item"><a href="about.php">About Us</a>
         <div class="dropdown-content">
-          <a href="testimonials.html">Testimonials</a>
+          <a href="testimonials.php">Testimonials</a>
         </li></div></div>
 
       <div class="dropdown">
-        <li class="border-right"><a href="entries.html">My Entries</a>
+        <li class="border-right"><a href="entries.php">My Entries</a>
         <div class="dropdown-content">
-          <a href="add_entry.html">Add New Entry</a>
+          <a href="add_entry.php">Add New Entry</a>
       </li></div></div>
 
-      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="contact.php">Contact Us</a></li>
     </ul>
   </nav>
 
-
-
   <div id="content">
-    <h1>Who We Are</h1>
+    <h1>Submission Successful</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ante lacus, lacinia quis tempor vitae, suscipit eu turpis. Nunc sit amet ultricies massa, commodo tempor dui. Vivamus non eros et leo commodo consectetur eu suscipit velit. Proin consectetur elit a auctor gravida. Ut nec velit dignissim, mattis enim quis, fringilla ligula. Aliquam libero nisl, sollicitudin ac lacus vitae, consectetur iaculis nulla. In hac habitasse platea dictumst. Aenean sollicitudin tempor ullamcorper. Nam quis arcu nisl. Curabitur quis lacus viverra, faucibus sapien id, egestas lorem. Sed porttitor nisl dictum, dictum turpis vel, elementum odio. Nullam sit amet neque ut nulla convallis convallis. Maecenas vestibulum eros ac velit convallis, a vestibulum ipsum consequat.</p>
 
-    <h1>Why Choose Us?</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ante lacus, lacinia quis tempor vitae, suscipit eu turpis. Nunc sit amet ultricies massa, commodo tempor dui. Vivamus non eros et leo commodo consectetur eu suscipit velit. Proin consectetur elit a auctor gravida. Ut nec velit dignissim, mattis enim quis, fringilla ligula. Aliquam libero nisl, sollicitudin ac lacus vitae, consectetur iaculis nulla. In hac habitasse platea dictumst. Aenean sollicitudin tempor ullamcorper. Nam quis arcu nisl. Curabitur quis lacus viverra, faucibus sapien id, egestas lorem. Sed porttitor nisl dictum, dictum turpis vel, elementum odio. Nullam sit amet neque ut nulla convallis convallis. Maecenas vestibulum eros ac velit convallis, a vestibulum ipsum consequat.</p>
+    <a href="contact.php"><button type="button" class="main-btn"> Return </button></a>
   </div>
-
-
 
   <footer>
     <section class="border-right">
@@ -72,7 +64,6 @@
 
     <p id="copyright"> Copyright &copy; The Anonymous Aspirer, 2015. </p>
   </footer>
-
 
 </body>
 </html>

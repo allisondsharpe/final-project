@@ -10,13 +10,9 @@
 </head>
 <body>
 
-  <?php
-    echo "Hello world!"
-    ?>
-
   <header>
     <img src="assets/images/logo.png" alt="AA logo" id="logo"/>
-    <a href="login.html"><button class="header-btn" type="button">Log in</button></a>
+    <a href="login.php"><button class="header-btn" type="button">Log in</button></a>
   </header>
 
   <div id="content">
@@ -24,7 +20,7 @@
       <h1>The Anonymous Aspirer</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ante lacus, lacinia quis tempor vitae, suscipit eu turpis. Nunc sit amet ultricies massa, commodo tempor dui. Vivamus non eros et leo commodo consectetur eu suscipit velit. Proin consectetur elit a auctor gravida. Ut nec velit dignissim, mattis enim quis, fringilla ligula. Aliquam libero nisl, sollicitudin ac lacus vitae, consectetur iaculis nulla. In hac habitasse platea dictumst. Aenean sollicitudin tempor ullamcorper. Nam quis arcu nisl. Curabitur quis lacus viverra, faucibus sapien id, egestas lorem. Sed porttitor nisl dictum, dictum turpis vel, elementum odio. Nullam sit amet neque ut nulla convallis convallis. Maecenas vestibulum eros ac velit convallis, a vestibulum ipsum consequat.</p>
 
-      <a href="signup.html"><button class="main-btn" type="button">Get Started</button></a>
+      <a href="signup.php"><button class="main-btn" type="button">Get Started</button></a>
     </div>
 
   </div>

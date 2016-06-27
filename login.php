@@ -10,7 +10,7 @@
 
   <header>
     <img src="assets/images/logo.png" alt="AA logo" id="logo"/>
-    <a href="signup.html"><button class="header-btn" type="button">Sign up</button></a>
+    <a href="signup.php"><button class="header-btn" type="button">Sign up</button></a>
   </header>
 
   <div id="content">
@@ -23,7 +23,7 @@
         <input type="text" name="email" class="form_input"><br>
         Password:<br>
         <input type="text" name="password" class="form_input"><br>
-        <a href="home.html"><button class="main-btn" type="button">Log in</button></a>
+        <a href="home.php"><button class="main-btn" type="button">Log in</button></a>
       </form>
     </div>
   </div>

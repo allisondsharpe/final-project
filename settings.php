@@ -11,18 +11,27 @@
 
   <header>
     <img src="assets/images/logo.png" alt="AA logo" id="logo"/>
-    <a href="settings.html"><button id="settings" class="header-btn" type="button">Settings</button></a>
-    <a href="logout.html"><button id="logout" class="header-btn" type="button">Log out</button></a>
+    <a href="settings.php"><button id="settings" class="header-btn" type="button">Settings</button></a>
+    <a href="logout.php"><button id="logout" class="header-btn" type="button">Log out</button></a>
   </header>
 
   <nav>
     <ul>
-      <li class="border-right"><a href="home.html">Home</a></li>
-      <div class="dropdown"><li class="border-right"><a href="about.html">About Us</a>
-        <div class="dropdown-content"><a href="testimonials.html">Testimonials</a></li></div></div>
-      <div class="dropdown"><li class="border-right"><a href="entries.html">My Entries</a>
-        <div class="dropdown-content"><a href="add_entry.html">Add New Entry</a></li></div></div>
-      <li><a href="contact.html">Contact Us</a></li>
+      <li class="border-right"><a href="home.php">Home</a></li>
+
+      <div class="dropdown">
+        <li class="border-right" id="active-item"><a href="about.php">About Us</a>
+        <div class="dropdown-content">
+          <a href="testimonials.php">Testimonials</a>
+        </li></div></div>
+
+      <div class="dropdown">
+        <li class="border-right"><a href="entries.php">My Entries</a>
+        <div class="dropdown-content">
+          <a href="add_entry.php">Add New Entry</a>
+      </li></div></div>
+
+      <li><a href="contact.php">Contact Us</a></li>
     </ul>
   </nav>
 
@@ -32,13 +41,13 @@
     <div class="settings">
       <h3> Go Premium </h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ante lacus, lacinia quis tempor vitae, suscipit eu turpis. Nunc sit amet ultricies massa, commodo tempor dui. Vivamus non eros et leo commodo consectetur eu suscipit velit. Proin consectetur elit a auctor gravida. Ut nec velit dignissim, mattis enim quis, fringilla ligula. Aliquam libero nisl, sollicitudin ac lacus vitae, consectetur iaculis nulla. In hac habitasse platea dictumst. Aenean sollicitudin tempor ullamcorper. Nam quis arcu nisl. Curabitur quis lacus viverra, faucibus sapien id, egestas lorem. Sed porttitor nisl dictum, dictum turpis vel, elementum odio. Nullam sit amet neque ut nulla convallis convallis. Maecenas vestibulum eros ac velit convallis, a vestibulum ipsum consequat.</p>
-      <a href="premium.html"><button type="button" class="main-btn"> Go Premium </button></a>
+      <a href="premium.php"><button type="button" class="main-btn"> Go Premium </button></a>
     </div>
 
     <div class="settings">
       <h3> Deactivate Account </h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ante lacus, lacinia quis tempor vitae, suscipit eu turpis. Nunc sit amet ultricies massa, commodo tempor dui. Vivamus non eros et leo commodo consectetur eu suscipit velit. Proin consectetur elit a auctor gravida. Ut nec velit dignissim, mattis enim quis, fringilla ligula. Aliquam libero nisl, sollicitudin ac lacus vitae, consectetur iaculis nulla. In hac habitasse platea dictumst. Aenean sollicitudin tempor ullamcorper. Nam quis arcu nisl. Curabitur quis lacus viverra, faucibus sapien id, egestas lorem. Sed porttitor nisl dictum, dictum turpis vel, elementum odio. Nullam sit amet neque ut nulla convallis convallis. Maecenas vestibulum eros ac velit convallis, a vestibulum ipsum consequat.</p>
-      <a href="deactivate.html"><button type="button" class="main-btn"> Deactivate </button></a>
+      <a href="deactivate.php"><button type="button" class="main-btn"> Deactivate </button></a>
     </div>
   </div>
 

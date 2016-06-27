@@ -11,18 +11,27 @@
 
   <header>
     <img src="assets/images/logo.png" alt="AA logo" id="logo"/>
-    <a href="settings.html"><button id="settings" class="header-btn" type="button">Settings</button></a>
-    <a href="logout.html"><button id="logout" class="header-btn" type="button">Log out</button></a>
+    <a href="settings.php"><button id="settings" class="header-btn" type="button">Settings</button></a>
+    <a href="logout.php"><button id="logout" class="header-btn" type="button">Log out</button></a>
   </header>
 
   <nav>
     <ul>
-      <li class="border-right"><a href="home.html">Home</a></li>
-      <div class="dropdown"><li class="border-right" id="active-item"><a href="about.html">About Us</a>
-        <div class="dropdown-content"><a href="testimonials.html">Testimonials</a></li></div></div>
-      <div class="dropdown"><li class="border-right"><a href="entries.html">My Entries</a>
-        <div class="dropdown-content"><a href="add_entry.html">Add New Entry</a></li></div></div>
-      <li><a href="contact.html">Contact Us</a></li>
+      <li class="border-right"><a href="home.php">Home</a></li>
+
+      <div class="dropdown">
+        <li class="border-right" id="active-item"><a href="about.php">About Us</a>
+        <div class="dropdown-content">
+          <a href="testimonials.php">Testimonials</a>
+        </li></div></div>
+
+      <div class="dropdown">
+        <li class="border-right"><a href="entries.php">My Entries</a>
+        <div class="dropdown-content">
+          <a href="add_entry.php">Add New Entry</a>
+      </li></div></div>
+
+      <li><a href="contact.php">Contact Us</a></li>
     </ul>
   </nav>
 

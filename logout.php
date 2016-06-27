@@ -9,8 +9,8 @@
 <body>
 
   <header>
-    <a href="index.html"><img src="assets/images/logo.png" alt="AA logo" id="logo"/></a>
-    <a href="signup.html"><button id="signup" class="header-btn" type="button">Sign up</button></a>
+    <a href="index.php"><img src="assets/images/logo.png" alt="AA logo" id="logo"/></a>
+    <a href="signup.php"><button id="signup" class="header-btn" type="button">Sign up</button></a>
   </header>
 
   <div id="content">
@@ -18,7 +18,7 @@
       <h1>Logout Successful</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ante lacus, lacinia quis tempor vitae, suscipit eu turpis. Nunc sit amet ultricies massa, commodo tempor dui. Vivamus non eros et leo commodo consectetur eu suscipit velit. Proin consectetur elit a auctor gravida. Ut nec velit dignissim, mattis enim quis, fringilla ligula. Aliquam libero nisl, sollicitudin ac lacus vitae, consectetur iaculis nulla. In hac habitasse platea dictumst. Aenean sollicitudin tempor ullamcorper. Nam quis arcu nisl. Curabitur quis lacus viverra, faucibus sapien id, egestas lorem. Sed porttitor nisl dictum, dictum turpis vel, elementum odio. Nullam sit amet neque ut nulla convallis convallis. Maecenas vestibulum eros ac velit convallis, a vestibulum ipsum consequat.</p>
 
-      <a href="login.html"><button type="button" class="main-btn"> Log in </button></a>
+      <a href="login.php"><button type="button" class="main-btn"> Log in </button></a>
     </div>
   </div>
 

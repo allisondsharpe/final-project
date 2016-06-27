@@ -10,7 +10,7 @@
 
   <header>
     <img src="assets/images/logo.png" alt="AA logo" id="logo"/>
-    <a href="login.html"><button class="header-btn" type="button">Log in</button></a>
+    <a href="login.php"><button class="header-btn" type="button">Log in</button></a>
   </header>
 
   <div id="content">
@@ -30,7 +30,7 @@
         Confirm Password:<br>
         <input type="text" name="confirmpw" class="form_input"><br>
         <input type="checkbox" name="terms" value="terms">I agree to the Terms of Service<br>
-        <a href="home.html"><button class="main-btn" type="button">Sign up</button></a>
+        <a href="home.php"><button class="main-btn" type="button">Sign up</button></a>
       </div>
     </form>
   </div>
